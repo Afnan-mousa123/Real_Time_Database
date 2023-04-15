@@ -13,7 +13,7 @@ import com.example.cloud_realtimedatabase.R
 
 class MassegeAdapter(
     private val context: Context,
-    private val messages: List<Message>,
+    private val messages: List<com.example.cloud_realtimedatabase.Chat.Message> ,
     private val currentUserUid: String
 ) : RecyclerView.Adapter<MassegeAdapter.MessageViewHolder>() {
 
